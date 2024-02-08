@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        
+        <label for="mobile">Mobile Number:</label><br>
+        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea><br>
+        
+        <label for="age">Are you 18+?</label><br>
+        <input type="radio" id="yes" name="age" value="yes" required>
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="age" value="no" required>
+        <label for="no">No</label><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
